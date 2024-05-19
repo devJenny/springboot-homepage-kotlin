@@ -1,6 +1,5 @@
 # springboot-homepage-kotlin
-- 강의명:
-- ㅇ
+- 강의명: 입문자를 위한 Spring Boot With Kotlin
 - 날짜: 2024. 05. 19. ~ 
 - 강의 인프런
 
@@ -16,3 +15,5 @@
    - validation
    - MySQL Driver
    - H2 Database
+
+---
