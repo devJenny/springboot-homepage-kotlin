@@ -13,7 +13,7 @@ class HttpInterface(httpServletRequest: HttpServletRequest) : BaseEntity() {
     var id: Long? = null
 
     var cookies: String? = httpServletRequest.cookies
-        ?.map {"${it.name}:${it.value}"}
+        ?.map { "${it.name}:${it.value}" }
         ?.toString()
 
     var referer: String? = httpServletRequest.getHeader("referer")

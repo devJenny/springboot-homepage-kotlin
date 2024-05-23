@@ -41,7 +41,7 @@ class Project(
     var details: MutableList<ProjectDetail> = mutableListOf()
 
     @OneToMany(mappedBy = "project")
-    var Skills: MutableList<ProjectSkill> = mutableListOf()
+    var skills: MutableList<ProjectSkill> = mutableListOf()
 
     fun getEndYearMonth(): String {
         if (endYear == null || endMonth == null) {
