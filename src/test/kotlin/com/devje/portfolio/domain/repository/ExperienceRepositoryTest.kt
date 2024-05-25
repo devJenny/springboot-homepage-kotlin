@@ -1,4 +1,4 @@
-package com.devje.portfolio.domain.repository;
+package com.devje.portfolio.domain.repository
 
 import com.devje.portfolio.domain.entity.Experience
 import com.devje.portfolio.domain.entity.ExperienceDetail
@@ -17,7 +17,6 @@ class ExperienceRepositoryTest(
     val DATA_SIZE = 10
 
     private fun createExperience(n: Int):
-
             Experience {
         val experience = Experience(
             title = "${n}",
@@ -31,8 +30,8 @@ class ExperienceRepositoryTest(
 
         val details = mutableListOf<ExperienceDetail>()
         for (i in 1..n) {
-            val experienctDetail = ExperienceDetail(content = "테스트${i}", isActive = true)
-            details.add(experienctDetail)
+            val experiencetDetail = ExperienceDetail(content = "테스트${i}", isActive = true)
+            details.add(experiencetDetail)
         }
         experience.addDetails(details)
 
