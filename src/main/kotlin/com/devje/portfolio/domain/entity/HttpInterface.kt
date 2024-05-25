@@ -18,7 +18,7 @@ class HttpInterface(httpServletRequest: HttpServletRequest) : BaseEntity() {
 
     var referer: String? = httpServletRequest.getHeader("referer")
 
-    var locaalAddr: String? = httpServletRequest.localAddr
+    var localAddr: String? = httpServletRequest.localAddr
 
     var remoteAddr: String? = httpServletRequest.remoteAddr
 
